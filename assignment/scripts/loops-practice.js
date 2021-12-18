@@ -7,7 +7,7 @@ console.log('---- 1. For loops ----');
 console.log('count from 0 to 3');
 // start i at 0, while i is < 4 do code between {}, afterwards add 1 to i (i++)
 
-for (let i=0; i<4; i++) {
+for (let i = 0; i < 4; i++) {
   console.log(i);
 }
 
@@ -16,7 +16,7 @@ for (let i=0; i<4; i++) {
 // We will need to change the greater than number to 6 so the loop stops at 5.
 console.log('count from 0 to 5');
 
-for (let i=0; i<6; i++) {
+for (let i = 0; i < 6; i++) {
   console.log(i);
 }
 
@@ -25,7 +25,7 @@ for (let i=0; i<6; i++) {
 // Will need to change i to equal 3 so it starts at 3.
 console.log('count from 3 to 5');
 
-for (let i=3; i<6; i++) {
+for (let i =3 ; i < 6; i++) {
   console.log(i);
 }
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
@@ -33,14 +33,14 @@ for (let i=3; i<6; i++) {
 // We will need to change the operator to +=2 since we are adding 2 from our starting point.
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 
-for (let i=2; i<12; i+=2 ) {
+for (let i = 2 ; i < 12; i+=2 ) {
   console.log(i);
 }
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 // Need to have i set to 5 so it starts there. i must be greater than -1 to hit zero.  Then i-- to decrement.
 console.log('STRETCH: countdown from 5 to 0');
 
-for (let i=5; i>-1; i--) {
+for (let i=5; i > -1; i--) {
   console.log(i);
 }
 
